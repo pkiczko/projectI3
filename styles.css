@@ -274,12 +274,29 @@ margin-bottom:5px;}
   margin-bottom:5px;}
   .m_art1_bg {height: auto;}
 }
+
 article.m_art2 section {margin-right: 10px;}
+
+
 .dot_list li {
+  list-style-type: none;
+  position: relative;
   padding-bottom: 5px;
   margin-bottom: 10px;
   border-bottom: 1px dashed var(--comment_text-color);
 }
+
+
+
+.dot_list li::before {
+    content: '\25A0';      /* The unicode for • character */
+    position: absolute;
+    top: 0.5em;
+    left: -1.8em;          /* Adjust this value so that it appears where you want. */
+    font-size: 0.5em;      /* Adjust this value so that it appears what size you want. */
+}
+
+
 article.m_art2 {
   grid-area:content;
   display: flex;
