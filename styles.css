@@ -192,10 +192,11 @@ article.m_art1 {
 
   }
 .m_art1-3images img {
-  flex-basis: 5em;
+
+  height:auto;
   position: inline;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 0 20px;
   flex-basis: 7em;
   margin-bottom: 0px;
   width: 100px;
@@ -247,7 +248,7 @@ margin-bottom:5px;}
 .m_art1-3images {
   width: 100%;
 }
-.m_art1_bg div {height: 0px;}
+.m_art1_bg div {height: 100px;}
 
 }
 
